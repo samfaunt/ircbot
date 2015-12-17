@@ -1,11 +1,13 @@
 <?php
+ini_set('display_errors', 'On');
+error_reporting(E_ALL);
 
 require 'vendor/autoload.php';
 
-$server = 'localhost';
+$server = 'irc.freenode.com';
 $port = 6667;
-$nick = 'bot';
-$channels = ['#dev'];
+$nick = 'ftybot';
+$channels = ['#goondev'];
 
 $uri = sprintf("tcp://%s:%d", $server, $port);
 
