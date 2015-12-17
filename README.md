@@ -2,6 +2,11 @@
 
 This project is the creation of a bacsic php irc bot
 
+### Requirements
+```sh
+Composer
+```
+
 ### Installation
 ```sh
 $ git clone https://github.com/samfty/ircbot.git
